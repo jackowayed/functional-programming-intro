@@ -1,5 +1,8 @@
 // Functional Programming
 
+// "Functional programming leads to code that is easier to write,
+// read, test, and reuse." --Programming Clojure
+
 // Point 1: First-class functions
 
 // a function is any other piece of data
@@ -42,5 +45,10 @@ var identity = compose(Math.log, Math.exp);
 identity(2); //2
 
 // Point 2: Pure functions
+
+// does not change or depend on state
+// parameters are the only things that determine the return value
+// (which means that it always returns the same thing if you call it
+// with the same params)
 
 // Point 3: Bottom-up Programming?
