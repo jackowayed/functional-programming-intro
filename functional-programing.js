@@ -31,6 +31,16 @@ function map(arr, fun) {
 	}
   return ret;
 }
+// or
+function map(arr, fun) {
+	if (arr.length <= 0) {
+    return arr;
+	}
+	if (arr.length == 1) {
+		return [fun(arr[0])];
+	}
+	return [fun(arr[0])].concat(map(arr.slice(1), fun))
+}
 var squares = map([1,2,3,4,5], function(i) {
 	return i * i;
 }); // [1,4,9,16,25]
