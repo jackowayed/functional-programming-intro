@@ -66,6 +66,8 @@ function map(arr, fun) {
 	return [fun(arr[0])].concat(map(arr.slice(1), fun))
 }
 
+//(if (= nil list) nil (cons (fun (car list)) (map (cdr list))))
+
 
 // Point 3: Bottom-up Programming?
 

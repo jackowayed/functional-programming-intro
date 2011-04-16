@@ -1,0 +1,33 @@
+"Functional programming leads to code that is easier to write, read, test, and reuse." --Programming Clojure
+
+First-class functions (functional-programming.js)
+
+Pure functions: parameters are the only things that decide the return value. Referential transparency.
+
+What are some problems/implications?
+* No side-effects = aren't actually doing anything
+* No storing data
+* No randomness
+* One-liners
+
+Immutable state (mutable_state.rb)
+
+Bottom-up Programming
+
+"Build the language up to the program"
+
+better map
+
+sum divisible
+
+show jQuery & node
+
+show clojure
+
+show Haskell
+
+Why FP is better:
+* Pure functions make it way easier to test and understand
+* Strongly encourages good decomp & short functions (one-liners)
+* Declarative--functions are true definitions
+* If language knows functions are pure, can optimize and parallelize
